@@ -1,0 +1,12 @@
+.env
+**/.env
+!.env.example
+
+**/config.h
+!.gitignore
+!**/config.example.h
+
+.DS_Store
+build/
+dist/
+*.log
