@@ -35,6 +35,10 @@ flowchart LR
     DB -->|Flux queries| G[Grafana · Docker]
 ```
 
+For more details:
+- [System Architecture](docs/architecture.md)
+- [Hardware and Wiring](docs/hardware.md)
+
 **Control plane:** The browser communicates directly with the ESP32 over the local network. **Telemetry plane:** The ESP32 publishes MQTT messages; collection, storage, and dashboards run separately. Losing the broker should not prevent basic local light control.
 
 ## Hardware
